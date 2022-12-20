@@ -1,7 +1,9 @@
 export default function Home() {
   return (
-    <div className="flex justify-center border">
-      <h1 className="text-red-500 text-lg">Hello world!</h1>
+    <div className="w-[196vh] h-[100vh] bg-gray-900">
+      <h1 className="text-white justify-center border-white text-lg flex ">
+        Salve
+      </h1>
     </div>
   );
 }
