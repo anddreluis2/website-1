@@ -1,9 +1,12 @@
+import { Header, InfoCard } from "./components";
+import { SocialCard } from "./components/SocialCard";
+
 export default function Home() {
   return (
-    <div className="w-[196vh] h-[100vh] bg-gray-900">
-      <h1 className="text-white justify-center border-white text-lg flex ">
-        Salve
-      </h1>
+    <div className="w-[100vw] h-[100vh] bg-background">
+      <Header />
+      <InfoCard />
+      <SocialCard />
     </div>
   );
 }
