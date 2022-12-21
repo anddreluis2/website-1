@@ -44,3 +44,5 @@ export const SocialCard: React.FC = ({}) => {
     </>
   );
 };
+
+export default SocialCard;
