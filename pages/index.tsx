@@ -1,5 +1,4 @@
-import { Header, InfoCard } from "./components";
-import { SocialCard } from "./components/SocialCard";
+import { Header, InfoCard, SocialCard } from "./components";
 
 export default function Home() {
   return (

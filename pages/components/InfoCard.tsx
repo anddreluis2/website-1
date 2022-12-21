@@ -14,3 +14,5 @@ export const InfoCard: React.FC = ({}) => {
     </>
   );
 };
+
+export default InfoCard;
