@@ -1,5 +1,6 @@
 import { Menu, Transition } from "@headlessui/react";
-import { Fragment, useEffect, useRef, useState } from "react";
+import router from "next/router";
+import { Fragment } from "react";
 import {
   FaChevronDown,
   FaGithubAlt,
@@ -29,6 +30,7 @@ export default function Example() {
             <div className="px-1 py-1 ">
               <Menu.Item>
                 <button
+                  onClick={() => router.push("/contacts")}
                   className={`gap-2 group flex w-full items-center rounded-md px-2 py-2 text-sm text-white hover:text-gray`}
                 >
                   <FaPhone />
@@ -37,6 +39,7 @@ export default function Example() {
               </Menu.Item>
               <Menu.Item>
                 <button
+                  onClick={() => router.push("/projects")}
                   className={`gap-2 group flex w-full items-center rounded-md px-2 py-2 text-sm text-white hover:text-gray`}
                 >
                   <FaGithubAlt />
@@ -47,6 +50,7 @@ export default function Example() {
             <div className="px-1 py-1">
               <Menu.Item>
                 <button
+                  onClick={() => router.push("/about")}
                   className={`gap-2 group flex w-full items-center rounded-md px-2 py-2 text-sm text-white hover:text-gray`}
                 >
                   <FaUserNinja />
