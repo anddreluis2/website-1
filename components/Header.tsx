@@ -1,6 +1,8 @@
+import { Menu } from "@headlessui/react";
 import Link from "next/link";
 import React, { useState } from "react";
 import { DiGit } from "react-icons/di";
+import DropdownMenu from "./DropdownMenu";
 
 export const Header: React.FC = () => {
   const [whiteMode, setWhiteMode] = useState(false);
@@ -12,6 +14,7 @@ export const Header: React.FC = () => {
           <DiGit size={40} />
         </Link>
       </div>
+      <DropdownMenu />
     </div>
   );
 };

@@ -9,6 +9,7 @@ module.exports = {
       background: '#111826',
       header: '#1A202C',
       white: "#FFFFFF",
+      gray: '#B5B5B5',
     },
     fontSize: {
       sm: '0.8rem',
