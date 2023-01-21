@@ -6,7 +6,7 @@ export const SocialCard: React.FC = ({}) => {
     <>
       <div className="bg-background w-1/3 justify-center gap-3 flex text-white m-auto mt-[80px]">
         <a
-          className="hover:cursor-pointer"
+          className="hover:cursor-pointer hover:text-gray"
           href={"https://api.whatsapp.com/send?phone=41998614302&text=Hello!"}
           target="_blank"
           rel="noreferrer"
@@ -15,7 +15,7 @@ export const SocialCard: React.FC = ({}) => {
         </a>
 
         <a
-          className="hover:cursor-pointer"
+          className="hover:cursor-pointer hover:text-gray"
           href={"https://github.com/anddreluis2"}
           target="_blank"
           rel="noreferrer"
@@ -24,7 +24,7 @@ export const SocialCard: React.FC = ({}) => {
         </a>
 
         <a
-          className="hover:cursor-pointer"
+          className="hover:cursor-pointer hover:text-gray"
           href={"https://www.linkedin.com/in/andreluisdeoliveiraandrade/"}
           target="_blank"
           rel="noreferrer"
@@ -33,7 +33,7 @@ export const SocialCard: React.FC = ({}) => {
         </a>
 
         <a
-          className="hover:cursor-pointer"
+          className="hover:cursor-pointer hover:text-gray"
           href={"https://twitter.com/anddreluis_"}
           target="_blank"
           rel="noreferrer"
