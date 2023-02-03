@@ -6,7 +6,7 @@ import DropdownMenu from "./DropdownMenu";
 
 export const Header: React.FC = () => {
   return (
-    <div className="bg-header w-[100vw] justify-between flex p-6 h-20">
+    <div className="bg-header w-full justify-between flex p-6">
       <div className="w-12">
         <Link className="text-white items-center hover:text-gray" href="/">
           <DiGit size={40} />

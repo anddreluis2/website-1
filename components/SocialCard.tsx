@@ -1,5 +1,5 @@
 import router from "next/router";
-import { FaGithub, FaLinkedinIn, FaTwitter, FaWhatsapp } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaTwitch, FaTwitter } from "react-icons/fa";
 
 export const SocialCard: React.FC = ({}) => {
   return (
@@ -7,11 +7,11 @@ export const SocialCard: React.FC = ({}) => {
       <div className="bg-background w-1/3 justify-center gap-3 flex text-white m-auto mt-[80px]">
         <a
           className="hover:cursor-pointer hover:text-gray"
-          href={"https://api.whatsapp.com/send?phone=41998614302&text=Hello!"}
+          href={"https://www.twitch.tv/anddreluis2"}
           target="_blank"
           rel="noreferrer"
         >
-          <FaWhatsapp size={28} />
+          <FaTwitch size={28} />
         </a>
 
         <a
