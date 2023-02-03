@@ -1,11 +1,5 @@
 import router from "next/router";
-import {
-  FaGithub,
-  FaLinkedinIn,
-  FaTwitch,
-  FaTwitter,
-  FaWhatsapp,
-} from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaTwitch, FaTwitter } from "react-icons/fa";
 
 export const SocialCard: React.FC = ({}) => {
   return (

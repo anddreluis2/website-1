@@ -1,16 +1,8 @@
 import { useState, useEffect } from "react";
 import { FaGithub } from "react-icons/fa";
 import { Header } from "../../components";
+import { RepositoryItemProps } from "../../types";
 import { RepostoryItem } from "./repositoryItem";
-
-export interface RepositoryItemProps {
-  repository: {
-    name: string;
-    description: string;
-    html_url: string;
-    stargazers_count: number;
-  };
-}
 
 export default function Projects() {
   const [repositories, setRepositories] = useState<RepositoryItemProps[]>([]);
@@ -22,18 +14,18 @@ export default function Projects() {
   }, []);
 
   return (
-    <section className="w-[100vw] bg-background text-white">
+    <section className="w-full h-full bg-background text-white">
       <Header />
       <title>Projetos</title>
 
-      <h1 className="font-bold text-exl items-center gap-3 justify-center flex mt-8">
+      <h1 className="font-bold text-exl items-center gap-3 mb-4 justify-center flex mt-8">
         <FaGithub /> Lista de Repositórios
       </h1>
 
       <ul>
         {repositories.map((repository) => {
           return (
-            <div key={repository.repository?.name}>
+            <div key={repository?.name}>
               <RepostoryItem repository={repository} />
             </div>
           );
