@@ -3,8 +3,10 @@ import { DiGo, DiJsBadge, DiNodejs, DiReact } from "react-icons/di";
 export default function About() {
   return (
     <>
-      <div className="mt-[460px] bg-background text-white">
-        <h1 className="text-exl justify-center flex mb-6">About me</h1>
+      <div id="about" className="mt-[390px] bg-header text-white">
+        <h1 className="text-exl pt-[46px] justify-center flex mb-6">
+          About me
+        </h1>
         <div className="flex justify-center">
           <div className="w-[550px] h-full justify-center">
             <h1 className="flex m-auto justify-center text-center">
@@ -46,7 +48,7 @@ export default function About() {
                   NodeJS
                 </a>
               </li>
-              <li className="hover:underline hover:font-black hover:uppercase mt-4 hover:text-gray sm:text-xl">
+              <li className="hover:underline hover:font-black mb-[40px] hover:uppercase mt-4 hover:text-gray sm:text-xl">
                 <a
                   className="items-center gap-3 flex justify-center"
                   href="https://go.dev/"
