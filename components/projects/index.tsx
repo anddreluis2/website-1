@@ -1,6 +1,5 @@
-import Head from "next/head";
 import { useState, useEffect } from "react";
-import { FaCaretRight, FaGithub } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { RepositoryItemProps } from "../../types";
 
 export default function Projects() {
