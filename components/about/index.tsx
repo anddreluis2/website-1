@@ -1,11 +1,12 @@
-import { DiGo, DiJsBadge, DiNodejs, DiReact } from "react-icons/di";
+import { DiGo, DiJsBadge, DiNodejs, DiReact, DiYeoman } from "react-icons/di";
+import { FaUserNinja, FaDesktop } from "react-icons/fa";
 
 export default function About() {
   return (
     <>
       <div id="about" className="mt-[390px] bg-header text-white">
-        <h1 className="text-exl pt-[46px] justify-center flex mb-6">
-          About me
+        <h1 className="text-exl pt-[46px] items-center gap-3 justify-center flex mb-6">
+          About me <FaUserNinja size={26} />
         </h1>
         <div className="flex justify-center">
           <div className="w-[550px] h-full justify-center">
@@ -19,7 +20,9 @@ export default function About() {
               <br /> Currently Systems Analysis and Development student.
             </h1>
 
-            <h2 className="flex mt-10 justify-center text-exl mb-6">Techs</h2>
+            <h2 className="flex mt-20 justify-center gap-3 items-center text-exl mb-6">
+              Techs <FaDesktop />
+            </h2>
             <ul className="text-center">
               <li className="hover:underline hover:font-black hover:uppercase mt-4 hover:text-gray sm:text-xl">
                 <a
