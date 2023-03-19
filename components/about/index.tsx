@@ -4,7 +4,7 @@ import { FaUserNinja, FaDesktop } from "react-icons/fa";
 export default function About() {
   return (
     <>
-      <div id="about" className="mt-[390px] bg-header text-white">
+      <div id="about" className="lg:mt-[390px] bg-header text-white">
         <h1 className="text-exl pt-[46px] items-center gap-3 justify-center flex mb-6">
           About me <FaUserNinja size={26} />
         </h1>
