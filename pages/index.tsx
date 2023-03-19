@@ -6,7 +6,7 @@ import Projects from "../components/projects";
 
 export default function Home() {
   return (
-    <div className="w-[99vw] relative h-full bg-background">
+    <div className="w-[99vw] relative h-[100vh] bg-background">
       <Head>
         <title>Andre Luis de Oliveira</title>
       </Head>
