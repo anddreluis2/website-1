@@ -11,7 +11,7 @@ const gruppo = Source_Code_Pro({
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <main className={gruppo.className}>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </main>
   );
 }

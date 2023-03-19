@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedinIn, FaTwitch, FaTwitter } from "react-icons/fa";
 export const SocialCard: React.FC = ({}) => {
   return (
     <>
-      <div className="bg-background w-1/3 justify-center gap-3 flex text-white m-auto mt-[80px]">
+      <div className="bg-background w-1/3 mb-[90px] justify-center gap-3 flex text-white m-auto mt-[80px]">
         <a
           className="hover:cursor-pointer hover:text-gray"
           href={"https://www.twitch.tv/anddreluis2"}
