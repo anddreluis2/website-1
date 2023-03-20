@@ -1,10 +1,10 @@
-import { DiGo, DiJsBadge, DiNodejs, DiReact, DiYeoman } from "react-icons/di";
+import { DiGo, DiJsBadge, DiNodejs, DiReact } from "react-icons/di";
 import { FaUserNinja, FaDesktop } from "react-icons/fa";
 
 export default function About() {
   return (
     <>
-      <div id="about" className="lg:mt-[390px] bg-header text-white">
+      <div id="about" className="lg:mt-[390px] h-[800px] bg-header text-white">
         <h1 className="text-exl pt-[46px] items-center gap-3 justify-center flex mb-6">
           About me <FaUserNinja size={26} />
         </h1>
@@ -17,7 +17,7 @@ export default function About() {
               Currently focused on front-end stacks.
               <br />
               <br /> Passionate about tech, and sports. <br />
-              <br /> Currently Systems Analysis and Development student.
+              <br /> Systems Analysis and Development student.
             </h1>
 
             <h2 className="flex mt-20 justify-center gap-3 items-center text-exl mb-6">
