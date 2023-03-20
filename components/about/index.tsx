@@ -17,7 +17,7 @@ export default function About() {
               Currently focused on front-end stacks.
               <br />
               <br /> Passionate about tech, and sports. <br />
-              <br /> Currently Systems Analysis and Development student.
+              <br /> Systems Analysis and Development student.
             </h1>
 
             <h2 className="flex mt-20 justify-center gap-3 items-center text-exl mb-6">
