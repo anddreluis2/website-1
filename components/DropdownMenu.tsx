@@ -1,7 +1,9 @@
 import { Menu, Transition } from "@headlessui/react";
+import Link from "next/link";
 import router from "next/router";
 import { Fragment } from "react";
 import {
+  FaBook,
   FaChevronDown,
   FaGithubAlt,
   FaPhone,
@@ -29,33 +31,42 @@ export default function Example() {
           <Menu.Items className="absolute right-10 w-56 origin-top-left divide-y divide-gray-100 rounded-md bg-background shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
             <div className="px-1 py-1 ">
               <Menu.Item>
-                <button
-                  onClick={() => router.push("/contacts")}
+                <Link
+                  href="#"
                   className={`gap-2 group flex w-full items-center rounded-md px-2 py-2 text-sm text-white hover:text-gray`}
                 >
                   <FaPhone />
                   Contacts
-                </button>
+                </Link>
               </Menu.Item>
               <Menu.Item>
-                <button
-                  onClick={() => router.push("/projects")}
+                <Link
+                  href="https://github.com/anddreluis2"
                   className={`gap-2 group flex w-full items-center rounded-md px-2 py-2 text-sm text-white hover:text-gray`}
                 >
                   <FaGithubAlt />
                   Projects
-                </button>
+                </Link>
+              </Menu.Item>
+              <Menu.Item>
+                <Link
+                  href="https://medium.com/@anddreluis"
+                  className={`gap-2 group flex w-full items-center rounded-md px-2 py-2 text-sm text-white hover:text-gray`}
+                >
+                  <FaBook />
+                  Medium
+                </Link>
               </Menu.Item>
             </div>
             <div className="px-1 py-1">
               <Menu.Item>
-                <button
-                  onClick={() => router.push("/about")}
+                <Link
+                  href="#about"
                   className={`gap-2 group flex w-full items-center rounded-md px-2 py-2 text-sm text-white hover:text-gray`}
                 >
                   <FaUserNinja />
                   About me
-                </button>
+                </Link>
               </Menu.Item>
             </div>
           </Menu.Items>
