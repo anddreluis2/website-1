@@ -25,8 +25,8 @@ export default function About() {
                         <div className="w-full pt-8 flex justify-center">
                             {' '}
                             <a
-                                download="./public/André Luis de Oliveira Andrade.pdf"
-                                href="./public/André Luis de Oliveira Andrade.pdf"
+                                download="https://cdn.discordapp.com/attachments/880206315203481603/1093359871816114236/Andre_Luis_de_Oliveira_Andrade.pdf"
+                                href="https://cdn.discordapp.com/attachments/880206315203481603/1093359871816114236/Andre_Luis_de_Oliveira_Andrade.pdf"
                                 className="flex gap-3 text-white justify-center hover:text-gray items-center"
                             >
                                 <FaDownload size={20} /> Download my resume
