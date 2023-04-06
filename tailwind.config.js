@@ -6,18 +6,18 @@ module.exports = {
   ],
   theme: {
     colors: {
-      background: '#111826',
-      header: '#1A202C',
+      background: "#111826",
+      header: "#1A202C",
       white: "#FFFFFF",
-      gray: '#B5B5B5',
+      gray: "#B5B5B5",
     },
     fontSize: {
-      sm: '0.8rem',
-      base: '1rem',
-      xl: '1.25rem',
-      exl: '40px',
+      sm: "0.8rem",
+      base: "1rem",
+      xl: "1.25rem",
+      exl: "40px",
     },
     extend: {},
   },
   plugins: [],
-}
+};
