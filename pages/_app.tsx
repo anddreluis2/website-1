@@ -13,7 +13,11 @@ export default function App({ Component, pageProps }: AppProps) {
     return (
         <main className={gruppo.className}>
             <head>
-                <Script src="https://tools.luckyorange.com/core/lo.js?site-id=1035f454" />
+                <script
+                    defer
+                    async
+                    src="https://tools.luckyorange.com/core/lo.js?site-id=1035f454"
+                ></script>
             </head>
             <Component {...pageProps} />
         </main>
